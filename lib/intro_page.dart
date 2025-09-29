@@ -42,7 +42,7 @@ class _IntroPageState extends State<IntroPage> {
                     highlightColor: Colors.lightBlueAccent,
                     period: const Duration(seconds: 2),
                     child: const Text(
-                      'Civic Fix',
+                      'Aris',
                       style: TextStyle(
                         fontSize: 48,
                         fontWeight: FontWeight.w900,
@@ -135,7 +135,7 @@ class IssuesGrid extends StatelessWidget {
       children: const [
         IssueCard(
           icon: Icons.wc,
-          label: 'Dirty Toilets',
+          label: 'Public awareness',
           color: Colors.blue,
         ),
         IssueCard(
@@ -150,7 +150,7 @@ class IssuesGrid extends StatelessWidget {
         ),
         IssueCard(
           icon: Icons.report_problem,
-          label: 'Potholes',
+          label: 'Disaster',
           color: Colors.red,
         ),
         IssueCard(
